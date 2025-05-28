@@ -1,6 +1,5 @@
-
-
 # Todo List Application by Farhod Latifov
+
 A modern, stylish, and simple React-based Todo List application. This project allows users to add, check/uncheck, and delete tasks, with persistent storage in the browser's localStorage. The UI is built with Tailwind CSS utility classes for a clean and responsive look.
 
 ## Features
@@ -21,6 +20,7 @@ A modern, stylish, and simple React-based Todo List application. This project al
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v16+ recommended)
 - npm or yarn
 
@@ -58,6 +58,7 @@ src/
 ```
 
 ## Customization
+
 - You can easily change the color scheme or layout by editing Tailwind classes in the components.
 - To reset your todo list, clear your browser's localStorage.
 
@@ -67,4 +68,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-Made with ❤️ using React and Tailwind CSS.
+Made with ❤️ by Farhod Latifov using React and Tailwind CSS.
