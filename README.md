@@ -1,73 +1,76 @@
-# Todo List Application by Farhod Latifov
+# 📝 Приложение "Список дел" от Farhod Latifov
 
-link to this project - https://react-todo-app-bay-nine.vercel.app/
+🔗 Ссылка на проект - https://react-todo-app-bay-nine.vercel.app/
 
-A modern, stylish, and simple React-based Todo List application. This project allows users to add, check/uncheck, and delete tasks, with persistent storage in the browser's localStorage. The UI is built with Tailwind CSS utility classes for a clean and responsive look.
-
-## Features
-
-- Add new tasks with a single click
-- Mark tasks as completed (with line-through effect)
-- Delete tasks instantly
-- Active tasks counter
-- Persistent storage (tasks are saved in localStorage)
-- Responsive and modern UI with smooth transitions
-
-## Technologies Used
-
-- React (functional components, hooks)
-- Tailwind CSS (utility-first styling)
-- Vite (for fast development and build)
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v16+ recommended)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/todo-list-app.git
-   cd todo-list-app
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   # or
-   yarn install
-   ```
-3. Start the development server:
-   ```sh
-   npm run dev
-   # or
-   yarn dev
-   ```
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-## Project Structure
-
-```
-src/
-  components/
-    TodoHeader.jsx   # Main todo logic and UI
-    TodoItem.jsx     # Single todo item component
-    TodoWrapper.jsx  # (Optional) Wrapper for todos
-  App.jsx           # App entry point
-  main.jsx          # React root
-```
-
-## Customization
-
-- You can easily change the color scheme or layout by editing Tailwind classes in the components.
-- To reset your todo list, clear your browser's localStorage.
-
-## License
-
-This project is open source and available under the MIT License.
+Современное, минималистичное и стильное приложение "Список дел" на **React**. Пользователь может добавлять задачи, отмечать их как выполненные и удалять. Все задачи сохраняются в **localStorage**, поэтому не теряются при перезагрузке страницы. Интерфейс построен с помощью **Tailwind CSS** и адаптирован под все экраны.
 
 ---
 
-Made with ❤️ by Farhod Latifov using React and Tailwind CSS.
+## 🚀 Основной функционал
+
+- ➕ Добавление новых задач одним кликом
+- ✅ Отметка выполнения (с зачеркиванием текста)
+- 🗑️ Удаление задач
+- 🔢 Счётчик активных задач
+- 💾 Сохранение в localStorage
+- 📱 Адаптивный интерфейс с плавными переходами
+
+---
+
+## 🛠️ Используемые технологии
+
+- **React** (функциональные компоненты и хуки)
+- **Tailwind CSS** (утилитарная стилизация)
+- **Vite** (быстрая сборка и разработка)
+
+---
+
+## ⚙️ Как запустить
+
+### 📦 Требования
+
+- Node.js (рекомендуется v16+)
+- npm или yarn
+
+### 📥 Установка
+
+1. Клонируй репозиторий:
+   ```sh
+   git clone https://github.com/your-username/todo-list-app.git
+   cd todo-list-app
+
+    Установи зависимости:
+
+npm install
+# или
+yarn install
+
+Запусти проект:
+
+    npm run dev
+    # или
+    yarn dev
+
+    Открой в браузере: http://localhost:5173
+
+📁 Структура проекта
+
+src/
+  components/
+    TodoHeader.jsx   # Главная логика и UI списка дел
+    TodoItem.jsx     # Компонент отдельной задачи
+    TodoWrapper.jsx  # (Опционально) Обёртка задач
+  App.jsx            # Входная точка приложения
+  main.jsx           # Инициализация React
+
+⚙️ Кастомизация
+
+    Легко изменить цветовую схему, просто редактируя Tailwind-классы.
+
+    Чтобы сбросить список дел — удали данные в localStorage браузера.
+
+📄 Лицензия
+
+Проект распространяется под лицензией MIT.
+
+Сделано с ❤️ на React и Tailwind CSS. Автор — Farhod Latifov.
