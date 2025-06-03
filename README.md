@@ -1,6 +1,6 @@
 # Todo List Application by Farhod Latifov
 
-link to this project - https://react-todo-lech8sj95-farhodlatifovs-projects.vercel.app/
+link to this project - https://react-todo-app-bay-nine.vercel.app/
 
 A modern, stylish, and simple React-based Todo List application. This project allows users to add, check/uncheck, and delete tasks, with persistent storage in the browser's localStorage. The UI is built with Tailwind CSS utility classes for a clean and responsive look.
 
